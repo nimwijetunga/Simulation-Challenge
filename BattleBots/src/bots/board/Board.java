@@ -44,9 +44,9 @@ public class Board extends JPanel{
 	
 	public void genItems() {
 		Random rand = new Random();
-		for(int i = 0; i < WIDTH; i++) {
-			int randX = rand.nextInt(6) + 2;
-			int randY = rand.nextInt(6) + 2;
+		for(int i = 0; i < WIDTH * 2; i++) {
+			int randX = rand.nextInt(5) + 1;
+			int randY = rand.nextInt(5) + 1;
 			items.add(new Item(randX,randY));
  		}
 	}

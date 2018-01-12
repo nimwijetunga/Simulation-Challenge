@@ -4,6 +4,7 @@ import java.applet.Applet;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
+import java.util.Scanner;
 
 import javax.swing.JFrame;
 
@@ -19,7 +20,7 @@ public class Main extends Applet implements Runnable{
 
 	private boolean runGame;
 	private Image displayImg;
-	private int n = 8;
+	private static int n;
 	
 	//Variables need to create FPS counter (Set game at 60 FPS)
 	private final int TARGET_FPS = 100; 
@@ -29,6 +30,9 @@ public class Main extends Applet implements Runnable{
 
 	
 	public static void main (String [] args){
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter Board Size");
+		n = s.nextInt();
 		//Allowing game to start once JFrame is created
 		main = new Main(); 
 
