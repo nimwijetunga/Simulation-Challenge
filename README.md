@@ -1,4 +1,4 @@
-# Watonomous Simulation Challenge
+# Watonomous Simulation Challenge (1-Day Challenge)
 
 Demo: https://www.youtube.com/watch?v=urDr78v2Fu0&feature=youtu.be
 
