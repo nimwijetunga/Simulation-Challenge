@@ -10,6 +10,6 @@ Download the zip file in some location on the PC then use an IDE such as eclipse
 ### Features
 * GUI
 * Keyboard Movement(WASD)
-* Turn Based Comabt
+* Turn Based Combat
 * Automatically regenerate items one none are left
 * Change board size (Dynamically Change Map)
